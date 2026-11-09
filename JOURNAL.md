@@ -3,7 +3,7 @@ title: "version-split"
 github: "https://github.com/NeerajR18/version-split"
 description: "Split Keyboard with per key RGB lighting, choc v1 switches and a reversible PCB. On board STM32F072CBT6 and USB-C interconnect."
 created_at: "2026-11-06"
-total_time: "1h 54m"
+total_time: "2h 30m"
 ---
 
 # November 6, 2026: Starting Out
@@ -60,3 +60,28 @@ I finished up by adding the USB-C power circuit. I referenced my old design for 
 Now, I need to add the interconnect, then move to routing.
 
 **Total time spent: 1h 18m**
+
+# November 9, 2026: Completed the Schematic
+<!-- fabricate:entry 2489 -->
+
+I finally finished the schematic!
+I had the USB-C connections for the split communications left along with connecting all the matrix pins to the MCU pins. 
+Now this is heavily experimental, but it should technically work.
+I made the USB-C split for one side first (which is probably enough, but most designs have two sides, which means two connectors)
+
+![](https://fabricate.hackclub-assets.com/7fb637fbaf223e196927da32f7cbfdc10425447aa542659e2ca041f8ada7958e/image-png/image.png)
+
+Next, I added another USB-C connector for the other side. (To flip)
+
+![](https://fabricate.hackclub-assets.com/1ea52b30eb912d26a75a7a016be29d3ec2d7db1a5483a30673268e19d4167fe3/image-png/image.png)
+
+After this I connected it to the MCU, according to the datasheet, PA9 and PA10
+
+![](https://fabricate.hackclub-assets.com/ab7543fc72f9e0548a9941cc09bc1f306de4533bb308e73fa17372241c755cea/image-png/image.png)
+
+I cleaned up the schematic, added some text for each part for better readability.
+Final Schematic - 
+
+![](https://fabricate.hackclub-assets.com/9f2593fc5e2654408d9524c3eaf6b3562d07719be580e77f7071f0f370e8adad/image-png/image.png)
+
+**Total time spent: 36m**
