@@ -3,7 +3,7 @@ title: "version-split"
 github: "https://github.com/NeerajR18/version-split"
 description: "Split Keyboard with per key RGB lighting, choc v1 switches and a reversible PCB. On board STM32F072CBT6 and USB-C interconnect."
 created_at: "2026-11-06"
-total_time: "2h 30m"
+total_time: "3h"
 ---
 
 # November 6, 2026: Starting Out
@@ -85,3 +85,17 @@ Final Schematic -
 ![](https://fabricate.hackclub-assets.com/9f2593fc5e2654408d9524c3eaf6b3562d07719be580e77f7071f0f370e8adad/image-png/image.png)
 
 **Total time spent: 36m**
+
+# November 11, 2026: Started the PCB
+<!-- fabricate:entry 2572 -->
+
+Nothing much of note. I just assigned footprints to all symbols 
+![](https://fabricate.hackclub-assets.com/8f5a925a6e4dde85cdbc6477f622c50acc5f12c5677e4191f06f7005aef8ff72/image-png/image.png)
+then imported them to the pcb editor
+![](https://fabricate.hackclub-assets.com/16a3f45b4de3d151f13ad1b2abda362148669c83624f1d1070aab9957a29d5d2/image-png/image.png)
+After this, I generated a plate using ai03 plate gen, then imported the dxf into KiCad. I do this to use it as a reference to place my switches.
+![](https://fabricate.hackclub-assets.com/c799f8a11949ed54f2becab3d7bb43469bc087dce79ed72c660c398e5d244537/image-png/image.png)
+Completed
+![](https://fabricate.hackclub-assets.com/bd10735d778a6858f7216708cd336153661d9517e3f3085a490722128ae2a47f/image-png/image.png)
+
+**Total time spent: 30m**
